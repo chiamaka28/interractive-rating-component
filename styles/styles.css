@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(216, 12%, 8%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+   
+}
+.card{
+   padding: 15px 20px;
+   background:  hsl(212, 22%, 15%);
+   color: hsl(0, 0%, 100%);
+   height: 330px;
+   width:320px;
+   margin: auto;
+   border-radius: 10px;
+  
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    background:hsl(214, 5%, 27%);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius:50%;
+   margin-bottom: 15px;
+}
+.card p{
+    color:hsl(217, 12%, 63%);
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+}
+.rate{
+    height: 40px;
+    width:40px;
+    background: hsl(214, 5%, 27%);
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.rate:hover{
+    background: hsl(25, 97%, 53%);
+    color:white;
+}
+.rate.active{
+    background:hsl(216, 12%, 54%) ;
+    color: white;
+}
+.submit{
+    width:270px;
+    height:45px;
+    border: none;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color:white;
+    background: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+.submit:hover{
+    background:  hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.hidden{
+    display: none;
+}
+.thank-you{
+    padding: 30px 20px;
+    background:  hsl(212, 22%, 15%);
+    color: hsl(0, 0%, 100%);
+    height: 340px;
+    width:310px;
+    margin: auto;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.review{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    margin: 20px 45px;
+    background:  hsl(225, 3%, 23%);
+    width:160px;
+    height:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.thank-you h2{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.thank-you p{
+    text-align: center;
+    font-size: 15px;
+}
+.thank-you span{
+    padding: 0 3px;
+}
